@@ -1,0 +1,20 @@
+.xans-myshop-orderstate .state { overflow:hidden; border-top:1px solid #eee; border-bottom:1px solid #eee;}
+
+/* .xans-myshop-orderstate .state .cs {border-top: 1px solid #eee;}
+.xans-myshop-orderstate .state .cs li {width: 33.3333%;} */
+
+.xans-myshop-orderstate .state .order
+/* .xans-myshop-orderstate .state .cs */ { display:flex; }
+
+/* .xans-myshop-orderstate .state .cs li, */
+.xans-myshop-orderstate .state .order li {position: relative; width:25%; padding:20px 0; text-align:center; border-right: 1px solid #eee;}
+/* .xans-myshop-orderstate .state .order li {width:25%;} */
+
+/* .xans-myshop-orderstate .state .cs li:last-child, */
+.xans-myshop-orderstate .state .order li:last-child {border-right: none;}
+
+/* .xans-myshop-orderstate .state .cs li span, */
+.xans-myshop-orderstate .state .order li span {display: block;}
+
+/* .xans-myshop-orderstate .state .cs li span.count */
+.xans-myshop-orderstate .state .order li span.count {margin-bottom: 5px;}
